@@ -4,15 +4,21 @@ module.exports = {
      * The `port` setting determines witch TCP port your app be deployed on.
       */
 
-    port: 3000,
+    port: 4000,
 
+    /**
+     * 
+     * `host`
+     * 
+      */
 
+    host: "localhost",
     /**
      * 
      * `views`
       */
 
-    views: require('path').join(__basepath, 'app', 'views'),
+    views: require('path').join(__basepath, 'resources', 'views'),
 
     /**
      * 
@@ -20,5 +26,7 @@ module.exports = {
      * 
       */
 
-    view_engine: "ejs"
+    view_engine: "ejs",
+
+    salt: 10
 }

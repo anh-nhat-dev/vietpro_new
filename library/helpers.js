@@ -69,3 +69,8 @@ global._config = function(name) {
 
     return typeof value != "undefined" ? value : null;
 } 
+
+global._url = function(path){
+    let base_url = req.protocol + '://' + req.get('host');
+    return path ? base_url + '/' + path : base_url;
+}
