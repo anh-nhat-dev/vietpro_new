@@ -1,9 +1,9 @@
 module.exports = {
 
-    host: "us-cdbr-iron-east-01.cleardb.net",
-    user: "bf42f7ac35da0c",
-    password: "db3e5c5a",
-    database: "heroku_e48868d67bdc957",
+    host: "ixqxr3ajmyapuwmi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    user: "npbebh61hjj2cywo",
+    password: "x8luj9hfo5ea1m9d",
+    database: "q5bm2ok16kou9y9r",
     multipleStatements: true
 
 }
