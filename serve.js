@@ -8,7 +8,7 @@ require('./app');
 
 require('./app/kenel');
 
-app.listen(_config('app.port'),_config('app.host'), function() {
+app.listen(process.env.PORT || _config('app.port'),_config('app.host'), function() {
     console.log(`Server activation on port ${_config('app.port')}`);
     // open(`http://${_config('app.host')}:${_config('app.port')}`);
 });
