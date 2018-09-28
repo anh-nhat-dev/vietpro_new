@@ -1,0 +1,48 @@
+<aside class="menu-sidebar d-none d-lg-block">
+        <div class="logo">
+            <a href="#">
+                <img src="images/icon/logo.png" alt="Cool Admin" />
+            </a>
+        </div>
+        <div class="menu-sidebar__content js-scrollbar1">
+            <nav class="navbar-sidebar">
+                <ul class="list-unstyled navbar__list">
+                    <li class="active has-sub">
+                        <a class="js-arrow" href="#">
+                            <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        <ul class="list-unstyled navbar__sub-list js-sub-list">
+                            <li>
+                                <a href="index.html">Dashboard 1</a>
+                            </li>
+                            <li>
+                                <a href="index2.html">Dashboard 2</a>
+                            </li>
+                            <li>
+                                <a href="index3.html">Dashboard 3</a>
+                            </li>
+                            <li>
+                                <a href="index4.html">Dashboard 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="<%= _url('admin/account') %>">
+                            <i class="fas fa-users"></i>Quản lý thành viên</a>
+                    </li>
+                    <li>
+                        <a href="<%= _url('admin/articles') %>">
+                            <i class="fas fa-tasks"></i>Quản lý bài viết</a>
+                    </li>
+                    <li>
+                        <a href="<%= _url('admin/category') %>">
+                            <i class="fas fa-briefcase"></i>Quản lý danh mục</a>
+                    </li>
+                    <li>
+                        <a href="<%= _url('admin/comments') %>">
+                            <i class="far fa-comments"></i>Quản lý bình luận</a>
+                    </li>
+                               
+                </ul>
+            </nav>
+        </div>
+</aside>
